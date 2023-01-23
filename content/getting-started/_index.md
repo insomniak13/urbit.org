@@ -1,25 +1,26 @@
 +++
-title = "Overview"
+title = "Aperçu"
 weight = 0
 description = ""
 +++
 
 ### Introduction
 
-Nothing about building a new OS from scratch has been easy. Or creating an identity system that adequately replaces the IP address.
+Rien n’est simple dans la construction d'un nouveau système d'exploitation à partir de zéro.
+Il en est de même pour la création d’un système d'identité qui remplacerait de manière adéquate l'adresse IP.
 
-Getting on Urbit isn't always easy, either. The onboarding process hasn't been optimized by product managers in search of maximal profit. There's no checkbox for your interests—you have to discover them yourself.
+Rejoindre Urbit n'est pas toujours facile non plus. Le processus d’onboarding n'a pas été optimisé par des chefs de produit en quête de profit maximal. Il n'y a pas de case à cocher pour vos intérêts, vous devez les découvrir vous-même.
 
-But we like to think this hard work is exactly what makes Urbit special. **Consider yourself warned.**
+Mais nous aimons à penser que ce travail acharné est exactement ce qui rend Urbit si spécial. Considérez-vous averti.
 
-### Why Urbit?
+### Pourquoi Urbit ?
 
-**As a user**, you can explore the people, community, and sheer novelty of the Urbit ecosystem while owning your entire experience. Your data, your messages, your apps.
+**En tant qu'utilisateur**, vous pouvez découvrir des gens, la communauté et la véritable nouveauté qu’est l'écosystème Urbit tout en faisant votre propre expérience. Vos données, vos messages, vos applications.
 
-**As a developer**, you can now build apps, a protocol for a whole suite of apps, or an entire online subculture, and distribute your work directly to your users' operating systems. No middlemen, no MEGACORPs, and no lock-in.
+**En tant que développeur**, vous pouvez désormais créer des applications, un protocole pour toute une suite d'applications, ou toute une sous-culture en ligne. Vous pouvez aussi distribuer votre travail directement sur les systèmes d'exploitation de vos utilisateurs. Pas d'intermédiaires, pas de multinationales, et surtout, pas de verrouillage.
 
-Someone once said, "All the smart people I know disappear into Urbit." If you're smart, you will too — not just installing and running Urbit, but taking the first step toward deploying your Final Computer.
+Quelqu'un a dit un jour : "Tous les gens intelligents que je connais disparaissent dans Urbit." Si vous êtes intelligent, vous le ferez aussi, pas seulement en installant et en exécutant Urbit, mais en faisant le premier pas vers le déploiement la version Finale de votre ordinateur.
 
-### Launch into Urbit
+### Lancer vous dans Urbit
 
-Choose how you want to disappear into Urbit.
+Choisissez comment vous voulez disparaitre dans Urbit.

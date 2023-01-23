@@ -1,27 +1,28 @@
 +++
-title = "Hosted urbit"
-description = "Run Urbit on a managed service"
+title = "Urbit hébergé"
+description = "Exécutez Urbit à travers un fournisseur de service"
 weight = 1
 +++
 
-### 1. Select a hosting provider
+### 1. Choisir un hébergeur
+Les fournisseurs d'hébergement peuvent vous vendre une planète et gérer l'hébergement pour vous moyennant des frais réguliers. 
 
-Hosting providers can sell you a planet and manage the hosting for you for a regular fee. Two important points one should know about hosting providers:
+Deux points importants à savoir sur les hébergeurs :
 
-- Because the provider has access to the resources that run your Urbit experience, you must trust them with your data.
+- Étant donné que le fournisseur a accès aux ressources qui exécutent votre expérience Urbit, vous devez lui faire confiance avec vos données.
 
-- Urbit has portable data, so you should be able to work with a hosting provider to download all your data and boot up elsewhere if you choose to migrate or start self-hosting.
+- Urbit dispose de données transférables. En collaboration avec votre fournisseur, vous devriez donc pouvoir télécharger toutes vos données et démarrer ailleurs si vous choisissez de migrer ou de vous héberger vous-même.
 
-Some hosting providers we like include:
+Certains hébergeurs que nous aimons incluent :
+
 - [Tlon](https://tlon.network/)
-- [ThirdEarth](https://third.earth/)
+- [Third Earth](https://third.earth/)
 - [Planet One](https://planet.one/)
 
 
-### 2. Log in
+### 2. Connexion
+Les étapes exactes de connexion à votre Urbit dépendront de l'infrastructure de votre hébergeur et du flux qu'il a développé. Si vous avez des questions sur la connexion à votre vaisseau Urbit hébergé, contactez leur support.
 
-The exact steps for logging into your Urbit will depend on your hosting provider's infrastructure and the flow they've developed. If you have questions about logging into your hosted Urbit ship, contact their support.
+### Prochaines étapes
 
-### Next steps
-
-Learn how to [get around your urbit](/getting-started/getting-around).
+Apprenez à [explorer votre Urbit].(/getting-started/getting-around).

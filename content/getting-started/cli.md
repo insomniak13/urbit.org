@@ -136,26 +136,15 @@ Copiez le code reçu dans le bloc note.
 
 {% tab label="Initialiser une planète" %}
 
-In order to boot a planet, you need a copy of its private keys. If you got your
-planet via a claim link, the passport backup `.zip` file you downloaded will
-contain a file called something like `sampel-palnet-1.key`. If you don't have
-the passport backup or you got your planet by another method, you can instead
-login to [Bridge](https://bridge.urbit.org/), select your planet, go to the OS
-section, and hit the "Download Keyfile" button.
+Afin d’initialisé une planète, vous avez besoin d'une copie de ses clés privées. Si vous avez obtenu votre planète via un lien de réclamation, le fichier `.zip` de sauvegarde du passeport que vous avez téléchargé contiendra un fichier ressemblant à `sampel-palnet-1.key`. Si vous n'avez pas la sauvegarde du passeport ou si vous avez obtenu votre planète par une autre méthode, vous pouvez vous connecter à [Bridge](lien FR), sélectionner votre planète, aller dans la section OS, et cliquer sur le bouton "Download Keyfile".
 
-Back in the terminal, with the `urbit` binary you installed in the previous
-step, you can boot your planet with the following command (replacing
-`sampel-palnet` with your own planet and pointing to the location of your
-keyfile):
+De retour dans le terminal, avec le binaire urbit que vous avez installé à l'étape précédente, vous pouvez initialiser votre planète avec la commande suivante (en remplaçant `sampel-palnet` par votre propre planète et en pointant vers l'emplacement de votre fichier clé) :
 
 ```bash
 ./urbit -w sampel-palnet -k sampel-palnet-1.key
 ```
 
-This will create a folder with the name of your planet and begin booting.
-It may take a while to initialize the planet (usually only a couple of minutes,
-but it could take longer). When it's done, it'll take you to the dojo prompt
-(the dojo is Urbit's shell):
+Cela va créer un dossier avec le nom de votre planète et commencer à charger. Cela peut prendre un certain temps pour initialiser la planète (généralement seulement quelques minutes, mais cela peut prendre plus longtemps). une fois la procédure terminée, vous arriverez à l'interface du dojo (le dojo est le shell d'Urbit) :
 
 ```
 ames: live on 31337
@@ -164,43 +153,35 @@ http: loopback live on http://localhost:12321
 ~sampel-palnet:dojo>
 ```
 
-You can shut down the planet again by typing `|exit` in the dojo or hitting
-`Ctrl+D`. When it's first shut down, the runtime will be copied inside the data
-folder, so you can start it up again by doing:
+Vous pouvez éteindre la planète à nouveau en tapant |exit dans le dojo ou en appuyant sur Ctrl+D. Lors du premier arrêt, le runtime sera copié dans le dossier de données, vous pouvez donc le redémarrer en faisant :
 
 ```bash
 ./sampel-palnet/.run
 ```
-> Linux users need to run this command in another terminal window to access
-> your urbit on port 80 every time you upgrade your runtime (otherwise it'll 
-> default to port 8080):
+> Les utilisateurs Linux doivent exécuter cette commande dans une autre fenêtre de terminal pour > accéder à votre urbit sur le port 80 à chaque fois que vous mettez à jour votre runtime (sinon > il sera par défaut sur le port 8080) :
 >
 > ```shell
 > sudo apt-get install libcap2-bin
 > sudo setcap 'cap_net_bind_service=+ep' <pier>/.run
 > ```
 
-Most people use their urbit via Landscape, the browser-based UI. 
-In order to access Landscape, you need your web login code.
-You can get this by running the following command in the dojo:
+La plupart des gens utilisent leur urbit via Landscape, l'interface utilisateur fonctionnant sur un navigateur. Afin d'accéder à Landscape, vous avez besoin de votre code de connexion web. Vous pouvez l'obtenir en exécutant la commande suivante dans le dojo :
 
 ```
 +code
 ```
 
-It'll spit out a code that'll look something like `lidlut-tabwed-pillex-ridrup`
-(note this is a separate code to your master ticket). Copy the code it gives you
-to the clipboard.
+Vous obtiendrez un code qui ressemblera à `lidlut-tabwed-pillex-ridrup` (notez qu'il s'agit d'un code distinct de votre ticket principal). Copiez le code qu'il vous donne dans le presse-papiers.
 
-One last thing: The `sampel-palnet-1.key` keyfile is only needed once, when you
-first boot your planet. **Now that it's booted, it's good security practice to
-delete that keyfile.**
+Une dernière chose : Le fichier clé `sampel-palnet-1.key` n'est nécessaire qu'une seule fois, lorsque vous initialisez votre planète. **Maintenant qu'elle est initialisée, c'est une bonne pratique de sécurité que de supprimer ce fichier clé.**
 
 {% /tab %}
 
 {% /tabs %}
 
-### 4. Lorsque votre Urbit est exécuté et fonctionne, il est possible d’accéder à l’interface web Landscape avec votre navigateur. Les URL seront généralement soit `localhost` ou `localhost:8080` en fonction de votre plateforme. Pour vérifier l’adresse, vous pouvez consulter le message de démarrage dans le terminal. Vous devriez voir la ligne : 
+### 4. Connexion
+  
+Lorsque votre Urbit est exécuté et fonctionne, il est possible d’accéder à l’interface web Landscape avec votre navigateur. Les URL seront généralement soit `localhost` ou `localhost:8080` en fonction de votre plateforme. Pour vérifier l’adresse, vous pouvez consulter le message de démarrage dans le terminal. Vous devriez voir la ligne : 
 
 ```
 http: web interface live on http://localhost:8080

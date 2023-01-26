@@ -1,34 +1,34 @@
 +++
-title = "Joining groups"
+title = "Rejoindre des groupes"
 tag = "additional"
 weight = 2
 +++
 
-### 1. Get on the network
+### 1. Rejoindre le réseau
 
-First, you’ll need to get on Urbit.
+Tout d'abord, vous aurez besoin de vous rendre sur Urbit.
 
-Check out our [Getting Started guide](https://urbit.org/install) to find the best way for you.
+Consultez notre [guide de démarrage](https://urbit.org/getting-started) pour trouver la meilleure façon pour vous.
 
-### 2. Open the Groups app
+### 2. Ouvrez l'application Groupes
 
-Once you’re on the network, you’ll see and large tiled interface with a few applications installed: Talk, Terminal, Groups, and Bitcoin. Click on Groups.
+Une fois que vous êtes sur le réseau, vous verrez une grande interface quadrillée avec quelques applications installées : Talk, Terminal, Groups, et Bitcoin. Cliquez sur Groupes.
 
 ![](https://media.urbit.org/site/additional-guides/groups-1.png)
 
-### 3. Enter the group shortcode
+### 3. Saisissez le shortcode du groupe
 
-We’ll start by joining UF, the official group of the Urbit Foundation.
+Nous commencerons par rejoindre UF, le groupe officiel de la Fondation Urbit.
 
-In the Groups app, click on "Find Groups" in the left column and enter `~halbex-palheb/uf-public`
+Dans l'application Groupes, cliquez sur “Rechercher des groupes” dans la colonne de gauche et saisissez `~halbex-palheb/uf-public`
 
-Then click on the "Join" button once the group appears.
+Cliquez ensuite sur le bouton "Rejoindre" une fois que le groupe apparaît.
 
 ![](https://media.urbit.org/site/additional-guides/groups-2.png)
 
-### 4. Join channels
+### 4. Rejoindre des canaux
 
-Now, you'll see the first default channel of the group.
+Maintenant, vous verrez le premier canal par défaut du groupe.
 
 ![](https://media.urbit.org/site/additional-guides/groups-3.png)
 
@@ -39,11 +39,11 @@ We can join more channels in the group by clicking on the "All Channels" link in
 
 
 
-### 5. Chat and post on the network
+### 5. Discussion et poste sur le réseau
 
-In addition to posting text, you can now react, start threads, and reference messages by hovering over chat messages.  And you can leave comments in notebooks if they are enabled.
+En plus de poster du texte, vous pouvez désormais réagir, démarrer des discussions et faire référence aux messages en passant le curseur sur les messages de discussion. Et vous pouvez laisser des commentaires dans les notebooks s'ils sont activés.
 
-Remember to be nice, and have fun.
+N’oubliez pas d’être gentil et de vous amuser.
 
 ![](https://media.urbit.org/site/additional-guides/groups-4.png)
 

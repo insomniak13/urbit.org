@@ -1,38 +1,38 @@
 +++
-title = "Installing apps"
+title = "Installer des Applications"
 tag = "additional"
 weight = 3
 +++
 
-### 1. Get on the network
+### 1. Rejoignez le réseau
 
-First, you’ll need to get on Urbit.
+Tout d'abord, vous aurez besoin de vous rendre sur Urbit.
 
-Check out our [Getting Started guide](https://urbit.org/install) to find the best way for you.
+Consultez notre [guide de démarrage](https://urbit.org/getting-started) pour trouver la meilleure façon pour vous.
 
-### 2. Finding applications
+### 2. Trouver des applications
 
-Urbit is still in its early stages, so you’ll need to join groups and browse around the network to discover new applications as they are being brought up.
+Urbit en est encore à ses débuts, vous devrez donc rejoindre des groupes et explorer le réseau pour découvrir de nouvelles applications au fur et à mesure qu’elles apparaissent.
 
-However, we can get started a simple app from Urbit developer [`~paldev`](/ids/~paldev).
+Cependant, nous pouvons lancer une application simple à partir du développeur Urbit [~paldev](https://urbit.org/ids/~paldev).
 
-### 3. Search for a Developer
+### 3. Rechercher un Développeur
 
-Once you’re on the network, you’ll see and large tiled interface with a few applications installed and a search bar on the top of the page.
+Une fois que vous êtes sur le réseau, vous verrez une grande interface quadrillée avec quelques applications installées et une barre de recherche en haut de la page.
 
-Click and the search bar and search for the software provider’s Urbit ID.
+Cliquez sur la barre de recherche et recherchez l’Urbit ID du software.
 
-For example, to install the picture application, search for `~paldev` and then click on the result for `~paldev` to show his applications.
+Par exemple, pour installer l'application image, recherchez `~paldev` puis cliquez sur le résultat de `~paldev` pour afficher ses applications.
 
 ![](https://media.urbit.org/site/additional-guides/Installing-apps-1.jpg)
 
 ![](https://media.urbit.org/site/additional-guides/Installing-apps-2.jpg)
 
-### 4. Get the Application
+### 4. Rejoignez l'application
 
-After selecting the “picture” app, a pane will open that shows some information about the application. Go ahead and click the “Get App” button, and confirm the following modal window to begin the installation process.
+Après avoir sélectionné l'application “image”, une fenêtre s'ouvrira affichant des informations sur l'application. Allez-y et cliquez sur le bouton “Get App”, et la fenêtre suivante vous permettra de confirmer le début l’installation.
 
-Soon you’ll have a new application tile on your home screen that will let you upload and display a picture to your home screen.
+Bientôt, vous aurez un nouveau quadrillage d'application sur votre écran d'accueil qui vous permettra de télécharger et d'afficher une image sur votre écran d'accueil.
 
 ![](https://media.urbit.org/site/additional-guides/Installing-apps-3.jpg)
 

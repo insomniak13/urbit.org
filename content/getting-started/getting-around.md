@@ -1,75 +1,75 @@
 +++
-title = "Getting around"
-description = "Get around your urbit"
+title = "Explorer"
+description = "Explorer votre urbit"
 weight = 4
 +++
 
-### 1. Get oriented
+### 1. S'orienter
 
-After you've logged into your Urbit for the first time, you're officially an Urbiter! You've unlocked the entire Urbit network with your newly-minted ID — the key to your new digital life.
+Après vous être connecté à votre Urbit pour la première fois, vous êtes officiellement un Urbiter ! Vous avez débloqué l’accès à l'ensemble du réseau Urbit avec votre nouvelle identité, la clé de votre nouvelle vie numérique..
 
 ![](https://media.urbit.org/site/additional-guides/groups-1.png)
 
-You'll see your Home and a few pre-installed applications: Terminal, Groups, and Bitcoin. More on them in a moment.
+Vous verrez votre page d’accueil et quelques applications préinstallées : Terminal, Groupes et Bitcoin. Plus sur eux dans un instant.
 
-Above those are buttons to view System Preferences and Help and Support and check out notifications for newly-installed or recently-updated applications, respectively. The search bar helps you surface applications you already have installed, or discover developers and applications across the Urbit network.
+Au-dessus de ceux-ci se trouvent des boutons pour afficher les Préférences Système ; Aide ; Support et consulter les notifications pour les applications nouvellement installées ou respectivement, récemment mises à jour. La barre de recherche vous aide à visualiser les applications que vous avez déjà installées ou à découvrir les développeurs et les applications du réseau Urbit.
 
-You'll likely want to focus on finding and joining new communities, which you can do with the **Groups** app. Click on the box to open the application.
+Vous voudrez probablement vous concentrer sur la recherche et l'adhésion à de nouvelles communautés, ce que vous pouvez faire avec l'application **Groupes**. Cliquez sur la case pour ouvrir l'application.
 
-### 2. Join a few groups with fellow Urbiters
+### 2. Rejoignez quelques groupes avec d’autres Urbiters
 
-No two people will ever have the same experience on Urbit. That depends entirely on who you find and where they invite you to join them. But we can set you down a good path.
+Il n'y aura pas deux personnes qui vivront la même expérience sur Urbit. Cela dépend entièrement de qui vous trouvez et où ils vous invitent à les rejoindre. Mais nous pouvons vous mettre sur le bon chemin.
 
-First, Open the Groups app.
+Tout d'abord, ouvrez l'application Groupes.
 
-Then click on "Find Groups" in the left column. Enter [~bitbet-bolbel/urbit-community](/groups/~bitbet-bolbel/urbit-community) — the official Urbit community. Click the "Join" button when you see the group listing.
+Cliquez ensuite sur "Trouver des groupes" dans la colonne de gauche. Entrez [~bitbet-bolbel/urbit-community](https://urbit.org/groups/~bitbet-bolbel/urbit-community), la communauté officielle d'Urbit. Cliquez sur le bouton “Rejoindre” lorsque vous voyez la liste du groupe.
 
-Give it a minute, and the group will load its default channels. To join additional channels in the group, click the "All Channels" button.
+Attendez une minute, et le groupe chargera ses canaux par défaut. Pour rejoindre d'autres canaux du groupe, cliquez sur le bouton "Tous les canaux".
 
-Here are a few more useful groups to join:
+Voici quelques autres groupes utiles à rejoindre :
 
-- [`~rondev/group-discovery`](/groups/~rondev/group-discovery): A group for finding other groups.
-- [`~middev/the-forge`](/groups/~middev/the-forge): A group for sharing, discussing, and discovering new Urbit applications.
-- [`~hocwyn-tipwex/uqbar-event-horizon`](/groups/~hocwyn-tipwex/uqbar-event-horizon): A community around [Uqbar](https://uqbar.network), a company creating applications and experiences on top of Urbit — notably EScape, which is an alternative to the default Groups application for joining communities and messaging with other Urbiters.
+- [~rondev/group-discovery](https://urbit.org/groups/~rondev/group-discovery) : Un groupe pour trouver d'autres groupes.
+- [~middev/the-forge](https://urbit.org/groups/~middev/the-forge) : Un groupe pour partager, discuter et découvrir de nouvelles applications Urbit.
+- [~hocwyn-tipwex/uqbar-event-horizon](https://urbit.org/groups/~hocwyn-tipwex/uqbar-event-horizon) : Une communauté autour d'[Uqbar](https://uqbar.network/), une entreprise qui crée des applications et des expériences au-dessus d'Urbit notamment EScape, qui est une alternative à l'application Groups par défaut pour rejoindre des communautés et communiquer avec d'autres Urbiters.
 
-### 3. Get more Urbit apps
+### 3. Obtenir plus d’applications Urbit
 
-Groups are great, but Urbit goes way deeper with apps that are developed specifically for Urbit and use P2P networking for everything.
+Les groupes sont géniaux, mais Urbit va beaucoup plus loin avec des applications développées spécifiquement pour Urbit et qui utilisent le réseau P2P pour tout.
 
-We'll use [Canvas](/applications/~dister-norsyr-torryn/canvas) — a collaborative app for creating pixel art with others — as an example to show the process.
+Nous utiliserons [Canvas](https://urbit.org/applications/~norsyr-torryn/canvas), une application collaborative pour créer du pixel art avec d'autres personnes, comme par exemple pour illustrer le processus.
 
-Head back to your Urbit's home — the URL you used to log in and view your preinstalled apps. From there, click on the search bar and enter `~dister-norsyr-torryn/canvas`. Click on the first result, which shows you details about the developer, the license, a website for more information, and when the app was last updated.
+Retournez à la page d’accueil d'Urbit — l'URL que vous avez utilisée pour vous connecter et consulter vos applications préinstallées. De là, cliquez sur la barre de recherche et entrez `~dister-norsyr-torryn/canvas`. Cliquez sur le premier résultat, qui vous montre des détails sur le développeur, la licence, le site Web pour plus d'informations, et la date de la dernière mise à jour de l'application.
 
-Click **Get App**, then **Get "Canvas"** to continue. Your Urbit gets to work, and once installation is finished, click Open App to see it in action.
+Cliquez sur **Obtenir l'application**, puis sur **Obtenir** "**Canvas**" pour continuer. Votre Urbit se met au travail, et une fois l'installation terminée, cliquez sur Ouvrir l'application pour la voir en action.
 
-Some popular apps to get things moving:
+Quelques applications populaires pour animer les choses :
 
-- [EScape](/applications/~dister-fabnev-hinmur/escape): An alternative UI to the core groups, communities, and messaging capabilities in Urbit.
-- [Studio](/applications/~tirrel/studio): Run a blog on your urbit.
-- [Wrdu](/applications/~magped-magped-rabsef-bicrym/wrdu): A Wordle clone.
+- [EScape](https://urbit.org/applications/~fabnev-hinmur/escape) : une interface utilisateur alternative aux groupes, communautés et capacités de messagerie d'Urbit.
+- [Studio](https://urbit.org/applications/~tirrel/studio) : Lancez un blog sur votre urbit.
+- [Wrdu](https://urbit.org/applications/~magped-magped-rabsef-bicrym/wrdu) : Un clone de Wordle.
 
-Discover more applications on the [Ecosystem page](https://urbit.org/ecosystem?type=applications).
+Découvrez d'autres applications sur la [page Écosystème](https://urbit.org/ecosystem?type=applications).
 
-### 4. Get help
+### 4. Obtenir de l'aide
 
-If you need help getting around Urbit, the best place to go is the official Urbit community: [`~bitbet-bolbel/urbit-community`](/groups/~bitbet-bolbel/urbit-community). Those in the Help channel are willing to troubleshoot or provide links to resources to help you get out of a jam.
+Si vous avez besoin d'aide pour vous déplacer autour d'Urbit, le meilleur endroit où vous rendre est la communauté officielle d'Urbit : [~bitbet-bolbel/urbit-community](https://urbit.org/groups/~bitbet-bolbel/urbit-community). Ceux du canal d'aide sont prêts à résoudre les problèmes ou à fournir des liens vers des ressources pour vous aider à sortir d'un blocage.
 
-That community isn't for every support request, however. If your question involves an app, you're better served reaching out to the developer — for example, if you have an issue with EScape's notifications feature, reach out to Uqbar in [`~hocwyn-tipwex/uqbar-event-horizon`](/groups/~hocwyn-tipwex/uqbar-event-horizon).
+Cependant, cette communauté n'est pas pour toutes les demandes de soutien. Si votre question concerne une application, vous feriez mieux de contacter le développeur, par exemple, si vous rencontrez un problème avec la fonctionnalité de notification d'EScape, contactez Uqbar dans [~hocwyn-tipwex/uqbar-event-horizon](https://urbit.org/groups/~hocwyn-tipwex/uqbar-event-horizon).
 
-If you're having trouble with your planet or the hosting provider that's running your ship, try their support, as they'll have more context and resources to help solve your issue.
+Si vous avez des problèmes avec votre planète ou l'hébergeur qui exploite votre vaisseau, essayez leur support, car ils auront plus de contexte et de ressources pour vous aider à résoudre votre problème.
 
-And if you can't get through this guide and launch into Urbit, you may have luck with the [Urbit Live community](https://t.me/UrbitLiveGroup) on Telegram.
+Et si vous ne parvenez pas à parcourir ce guide et à vous lancer dans Urbit, vous aurez peut-être de la chance avec la [communauté Urbit Live](https://t.me/UrbitLiveGroup) sur Telegram.
 
-### 5. What's next?
+### 5. Quelle est la suite ?
 
-You made it! You did the work and now have your Final Computer.
+Tu l'as fait ! Vous avez fait le travail et maintenant, vous avez votre ordinateur final.
 
-What you do with it is up to you. Where you go from here is up to you. No two experiences on Urbit will be the same, so we encourage you to follow your own intuition and explore.
+Ce que vous en faites dépend de vous. Où vous allez à partir d'ici dépend de vous. Aucune expérience sur Urbit ne sera la même, nous vous encourageons donc à suivre votre intuition et à explorer.
 
-**Learn more about using Urbit**: Check out the [Operators Site](https://operators.urbit.org/) to learn more about running your own Urbit and how the network functions.
+En apprendre plus sur l'utilisation d'Urbit : Consultez le [site des Opérateurs](https://operators.urbit.org/) pour en apprendre plus sur l'exécution de votre propre Urbit et le fonctionnement du réseau.
 
-**Get updates about Urbit**: [Subscribe](https://urbit.us11.list-manage.com/subscribe/post?u=972a03db9e0c6c25bb58de8c8&id=be143888d2) to the Urbit Newsletter for news, blog posts, and events from the Urbit Foundation.
+Recevez des mises à jour sur Urbit : [Abonnez-vous](https://urbit.us11.list-manage.com/subscribe/post?u=972a03db9e0c6c25bb58de8c8&id=be143888d2) à la newsletter Urbit pour recevoir les actualités, les articles et les événements de la Fondation Urbit.
 
-**Join an event or meetup**: Many of the organizations and people behind Urbit host virtual and in-person events on a regular basis — check out the latest on our [Events feed](/events/), or a local [Meetup group](/ecosystem?type=communities).
+Joignez-vous à un événement ou à un meetup : De nombreuses organisations et personnes à l'origine d'Urbit organisent régulièrement des événements virtuels ou en personne. Consultez notre [fil d'événements](https://urbit.org/events) ou le groupe [Meetup local](https://urbit.org/ecosystem?type=communities).
 
-**Learn how to build on Urbit**: If you're the kind of person who wants to build applications directly for discerning communities with built-in identity and networking primitives, or even jump into the Urbit kernel's core, we have the most comprehensive information to get you started on the [Urbit Developers Site](https://developers.urbit.org/).
+Apprendre à construire sur Urbit : Si vous êtes le genre de personne qui souhaite construire des applications directement pour des communautés averties avec des primitives d'identité et de réseau, ou même sauter au cœur d’Urbit, nous avons les informations les plus complètes pour vous aider à démarrer sur le [site Urbit Developers](https://developers.urbit.org/).

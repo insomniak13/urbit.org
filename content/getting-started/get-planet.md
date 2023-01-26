@@ -1,48 +1,48 @@
 +++
-title = "Get a planet"
+title = "Obtenir une planète"
 weight = 1
-description = "How to acquire a planet, or an Urbit ID"
+description = "Comment acquérir une planète, ou une Urbit ID"
 tag = "additional"
 +++
 
-### What's a planet?
+### Qu’est-ce qu’une planète ?
 
-Planets are a type of [Urbit ID](/understanding-urbit/urbit-id) that is useful for providing individuals long-term access to the Urbit network.
+Les planètes sont un type d'[Urbit ID](https://urbit.org/overview/urbit-id) qui permet aux individus d'accéder à long terme au réseau Urbit.
 
-### Where to get a planet
+### Où trouver une planète ?
 
-There are a few ways to get your own planet:
+Il y a plusieurs façons d'obtenir votre propre planète :
 
-- Getting an invitation from a friend (or stranger)
-- Purchasing a planet, including hosting, from a hosting provider
-- Manually setting up and hosting a planet purchased from a third party marketplace
+- Recevoir une invitation d'un ami (ou d'un étranger)
+- Acheter une planète, y compris l'hébergement, auprès d'un hébergeur
+- Configuration manuelle et hébergement d'une planète achetée sur une place de marché tierce
 
-### Hosting Providers {% #hosting-providers %}
+### Hébergeurs {% #Hébergeurs %}
 
-Hosting providers will often sell you a planet and run it for you. This option is very simple but will probably cost a regular fee.
+Les hébergeurs vous vendront souvent une planète et l'exécuteront pour vous. Cette option est très simple, mais coûtera probablement des frais réguliers.
 
-Urbit is designed to be portable. This means that if you sign up for hosting now but later want to leave your hosting provider and run your Urbit yourself, you should be able to work with them to obtain all of your data and boot your planet back up without losing anything.
+Urbit est conçu pour être portable. Cela signifie que si vous vous inscrivez auprès d’un hébergeur maintenant, mais vous souhaitez plus tard quitter votre hébergeur et exécuter votre Urbit vous-même, vous devriez pouvoir travailler avec eux pour obtenir toutes vos données et relancer votre planète sans rien perdre.
 
-Using hosting does mean that you're trusting your provider with your data, but so long as you have your planet, you'll always own your identity.
+L'hébergement signifie que vous faites confiance à votre fournisseur pour vos données, mais tant que vous avez votre planète, vous êtes toujours propriétaire de votre identité.
 
-Current hosting providers are:
+Les hébergeurs actuels sont :
 
-- [UrbitHost](https://urbithost.com)
+- [UrbitHost](https://urbithost.com/)
 - [escape pod store](https://www.escapepod.store/)
 - [Third Earth](https://third.earth/)
-- [Tlon Corporation](https://tlon.io)
+- [Tlon Corporation](https://tlon.io/)
 
-### Buying a planet
+### Acheter une planète
 
-There are many places to buy a planet using either cryptocurrency or fiat.
+Il existe de nombreux endroits pour acheter une planète en utilisant soit des crypto-monnaies ou du fiat.
 
-Layer 1 planets are the most available through marketplaces, however they can be expensive due to Ethereum gas fees. You will need an Ethereum wallet such as Metamask to purchase these planets, and will later need to sign in to Bridge with your wallet to configure your planet.
+Les planètes sur Layer 1 sont les plus disponibles via les places de marché, mais elles peuvent être coûteuses en raison des frais de gas Ethereum. Vous aurez besoin d'un portefeuille Ethereum tel que Metamask pour acheter ces planètes, et vous devrez plus tard vous connecter à Bridge avec votre portefeuille pour configurer votre planète.
 
-Layer 2 planets do not require any crypto wallet management, but are at present less readily available on marketplaces.
+Les planètes sur layer 2 ne nécessitent pas la gestion d’un portefeuille crypto, mais sont actuellement moins facilement disponibles sur les places de marché.
 
-Don’t worry, both types work the same on the network.
+Ne vous inquiétez pas, les deux options fonctionnent de la même manière sur le réseau.
 
-Here are a few of the places where you can buy planets:
+Voici quelques-uns des endroits où vous pouvez acheter des planètes :
 {% table .w-full .my-4 %}
 * L1 Planet Markets
 * L2 Planet Markets
@@ -62,61 +62,53 @@ Here are a few of the places where you can buy planets:
 
 {% callout %}
 
-**Layer 2 for planets**
+**Les planètes sur Layer 2**
 
-Learn more about [layer 2 for planets](/using/id/layer-2-for-planets) in the User's Manual page on the topic.
+En savoir plus avec les planètes sur Layer 2 à la page du manuel de l'utilisateur sur ce sujet.
 
 {% /callout %}
 
 
-### Claiming your planet
+### Récupérez votre planète
 
-An invitation to claim your planet comes in one of two forms.
+L’invitation pour récupérer votre planète se présente sous l’une de ces deux formes :
 
-The first is an email invitation with an Urbit ID and a Master Ticket.
-
-The second, only recently made available through our [L2 solution](/using/id/layer-2-for-planets), is an activation code or a link to activate on [Bridge](https://bridge.urbit.org), which can be thought of as an Urbit account management tool.
+1. La première est une invitation par e-mail avec un Urbit ID et un Master Ticket.
+2. La seconde, récemment mis à disposition via notre [solution L2](https://operators.urbit.org/manual/id/layer-2-for-planets), est un code d'activation ou un lien à activer sur [Bridge](https://bridge.urbit.org/), qui peut être considéré comme un outil de gestion de compte Urbit.
 
 ![](https://media.urbit.org/site/getting-started/Server-setup-1.jpg)
 
-Clicking a link to activate a planet on Bridge will take you to page which will generate a Master Ticket for you. Follow the instructions which will prompt you to download a copy of your Passport: your Master Ticket, management proxy, and keyfile. Store your Master Ticket and management proxy somewhere safe, hold on to the keyfile, and proceed to the next step.
+En cliquant sur le lien pour activer une planète sur Bridge, vous serez redirigé vers la page qui générera un Master Ticket pour vous. Suivez les instructions qui vous permettront de télécharger une copie de votre passeport : votre Master Ticket, un proxy de gestion, et votre fichier clé. Stockez votre Master Ticket et votre proxy de gestion dans un endroit sûr, conservez le fichier clé et passez à l'étape suivante.
 
 {% callout %}
 
-**Claiming L1 planets**
+**Revendiquer des planètes sur L1**
 
-If you’ve purchased an L1 planet, you won’t need to claim it because you already own it as an NFT. Simply log into Bridge using Metamask or your wallet of choice.
+Si vous avez acheté une planète sur L1, vous n’aurez pas besoin de la récupérer, car vous la possédez déjà en tant que NFT. Connectez-vous simplement à Bridge en utilisant Metamask ou le portefeuille de votre choix.
 
 {% /callout %}
 
 
-### Using Bridge to get your keyfile
+### Utiliser Bridge pour récupérer votre fichier clé
 
-Now that you have your planet, you can create your keyfile (eg. `sample-palnet.key`), which is the cryptographic signature required to encrypt and decrypt messages on Urbit's P2P network.
+Maintenant que vous avez votre planète, vous pouvez créer votre fichier clé (par exemple `sample-palnet.key`), qui est la signature cryptographique nécessaire pour crypter et déchiffrer les messages sur le réseau P2P d'Urbit.
 
-- **Claimed L2 planets**  
-  If you’ve claimed your L2 Planet then you should already have downloaded your Passport, which contains your Master Ticket and keyfile.
-
-- **Master Ticket holders**  
-  If you haven’t downloaded your Passport but have a Master Ticket, then you can simply log in with Bridge using the Master Ticket option with your planet name and Master Ticket password. Click the ID box near the bottom of the page to open the ID page, then click the **Download Passport** button, which contains your keyfile.
-
-- **L1 Planet Purchasers**  
-  Log in to Bridge with your Ethereum wallet using Metamask or the wallet of your choice with WalletConnect. Click the “OS” box on the bottom of the page to open the OS page, and then click the **Download Keyfile** button.
+- **Récupérez une Planète sur L2**
+Si vous avez réclamé votre L2 Planet, vous devriez déjà avoir téléchargé votre Passeport, qui contient votre Master Ticket et votre fichier clé.
+- **Master Ticket Holders**
+Si vous n’avez pas téléchargé votre passeport, mais que vous possédez un Master Ticket, vous pouvez simplement vous connecter avec Bridge en utilisant l’option Master Ticket avec votre nom de planète et votre mot de passe Master Ticket. Cliquez sur la case ID en bas de la page pour ouvrir la page ID, puis cliquez sur le bouton **Télécharger le passeport**, contenant votre fichier clé.
+- **Acheteurs de Planet sur L1** 
+Connectez-vous à Bridge avec votre portefeuille Ethereum en utilisant Metamask ou le portefeuille de votre choix avec WalletConnect. Cliquez sur la case “OS” en bas de la page pour ouvrir la page OS, puis cliquez sur le bouton télécharger le fichier clé.
 
 
-### Next steps
+### Prochaines étapes
 
-Got your planet?
+Vous avez votre planète ?
 
-Get it up and running with one of these options:
+Installez et exécutez-la avec l'une de ces options :
 
-- Let a [hosting provider](/getting-started/hosted) do the hard work for you.
+- Laissez un [hébergeur](https://urbit.org/getting-started/hosted) faire le travail pour vous.
+- Pour les super utilisateurs, consultez le [guide d'installation en ligne de commande](https://urbit.org/getting-started/cli) et lancez votre urbit depuis le terminal.
+- Si vous avez un peu d'expérience en serveur Linux, le [guide d'hébergement cloud](https://operators.urbit.org/manual/running/hosting) vous aidera à configurer Urbit sur un VPS Digital Ocean, afin que vous puissiez y accéder de n'importe où.
 
-- For power users, check out the [command line install
-  guide](/getting-started/cli) and run your urbit from the terminal.
-
-- If you have a bit of Linux server experience, the [cloud hosting
-  guide](https://operators.urbit.org/manual/running/hosting) will help you set
-  up Urbit on a Digital Ocean VPS, so you can access it from anywhere.
-
-Remember, your planet is yours and you can always change how you run your urbit in the future.
+Rappelez-vous, votre planète est la vôtre et vous pouvez toujours changer la façon dont vous gérez votre urbit à l'avenir.

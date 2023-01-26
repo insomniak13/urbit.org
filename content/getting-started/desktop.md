@@ -1,11 +1,11 @@
 +++
-title = "Desktop app"
+title = "Application de Burreau"
 weight = 4
 description = ""
 +++
 
-In the past we recommended [Port](https://github.com/urbit/port/releases), a desktop Urbit client.
+Dans le passé, nous recommandions [Port](https://github.com/urbit/port/releases), un client Urbit de bureau.
 
-We now recommend that users that are not comfortable with the [CLI interface](/getting-started/cli) run Urbit with a [hosting service](/getting-started/hosted) or an Urbit-native computer like [Native Planet](https://www.nativeplanet.io/).
+Nous recommandons maintenant aux utilisateurs qui ne sont pas à l'aise avec l'[interface CLI](https://urbit.org/getting-started/cli) d'exécuter Urbit avec un service d'hébergement ou un ordinateur natif Urbit comme [Native Planet](https://www.nativeplanet.io/).
 
-Whichever way you run your urbit, you can also now use it with a desktop interface such as [Scene](https://tirrel.io/scene/index.html), or the soon-to-be released [Realm](https://www.holium.com/) application.
+Quelle que soit la façon dont vous exécutez votre Urbit, vous pouvez désormais l'utiliser avec une interface de bureau comme [Scene](https://tirrel.io/scene/index.html), ou avec l’application [Realm](https://www.holium.com/) qui sortira bientôt.

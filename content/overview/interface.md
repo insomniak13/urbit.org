@@ -5,38 +5,38 @@ weight = 4
 [extra]
 +++
 
-We built Urbit OS + Urbit ID to be the software stack for human-scale computing in the cloud. This system wasn’t built solely to be new infrastructure—it was built so that we can build better interfaces on top and people can use Urbit without having to know about the technology at all. For Urbit to actually matter, we have to go all the way from VM to UI.
+Nous avons construit Urbit OS + Urbit ID pour être la stack de logiciels à l'échelle humaine pour l’informatique dans le cloud. Ce système n'a pas été conçu uniquement pour être une nouvelle infrastructure, il a été conçu pour que nous puissions créer de meilleures interfaces et que les gens puissent utiliser Urbit sans n’avoir à connaître la technologie. Pour qu'Urbit compte réellement, nous devons aller de la VM à l'UI.
 
 Landscape {% .font-bold .subpixel-antialiased .pt-8 %}
 
-To address the interface component of the stack, Tlon built Landscape: a simple, calm, browser-based interface for building digital communities. 
+Pour traiter le composant d'interface de la stack de logiciels, Tlon a créé Landscape : une interface simple, douce et basée sur un navigateur, pour créer des communautés numériques.
 
-Today, once you have an Urbit OS node up and running, you can access Landscape from a desktop or mobile browser to pseudonymously chat, write, and share links with a group of friends.
+Aujourd'hui, une fois que vous avez un nœud Urbit OS opérationnel, vous pouvez accéder à Landscape à partir d'un navigateur de bureau ou mobile pour discuter, écrire, et partager avec un groupe d’amis, de manière pseudonyme.
 
 ![](https://media.urbit.org/site/understanding-urbit/uu-interface-3.png)
 
-Landscape is by no means the only possible interface for Urbit OS + Urbit ID, but it’s the one that we need the most. In the future, we look forward to there being lots of different Urbit interfaces (and if you’re at all interested in experimenting with building one, please do.)
+Landscape n'est en aucun cas la seule interface possible pour Urbit OS + Urbit ID, mais c'est celle dont nous avons le plus besoin. À l'avenir, nous attendons avec impatience qu'il y ait de nombreuses interfaces Urbit différentes (et si vous souhaitez tenter de créer une interface, faites-le.)
 
-What problem is Landscape solving? Let’s start with the current situation when it comes to cloud services.
+Quel problème Landscape résout-il ? Commençons par la situation actuelle en matière de services cloud.
 
-In today’s world of apps and services, there’s no operating system in any meaningful sense. Our communities, co-workers, and lives are spread between these services—and the work of combining them is left to the user. It’s completely up to you to remember all your passwords, who sent what message where, what files are on which platform, and so on.
+Dans le monde actuel des applications et des services, il n'y a pas de système d'exploitation dans un sens significatif. Nos communautés, nos collègues et nos vies sont répartis entre ces services, et le travail de les combiner est laissé à l'utilisateur. C'est à vous de vous souvenir de tous vos mots de passe, qui a envoyé quel message, où, quels fichiers se trouvent sur quelle plateforme, etc.
 
-It’s annoying and confusing to switch between interfaces, you can’t extend or build on top, and privacy and security are out of your hands. This fragmented, siloed, closely surveilled experience is simply a byproduct of having other people run and control your software. For the ordinary user, the result is restrictive, boring, and painful to manage. The possibility for everyday creativity with the tools we’re stuck with is close to zero. Wasn’t the computer supposed to be a bicycle for the mind?
+C’est ennuyeux et déroutant de basculer entre les interfaces ; vous ne pouvez pas étendre ou construire par-dessus, et la confidentialité et la sécurité ne sont pas entre vos mains. Cette expérience fragmentée, cloisonnée, et étroitement surveillée, est simplement un sous-produit du fait que d'autres personnes exécutent et contrôlent votre logiciel. Pour l'utilisateur ordinaire, le résultat est contraignant, ennuyeux et pénible à gérer. La possibilité de créativité quotidienne avec les outils avec lesquels nous sommes coincés est proche de zéro. L'ordinateur n'était-il pas censé être un vélo pour l'esprit ?
 
-Operating systems for the PC took the desk of the 1970s and made it digital. Paper, drawers, and envelopes became ‘files’ and ‘folders’. It’s a great abstraction, but it’s ancient. We live in a connected, multiplayer world; we need an operating system that acknowledges this world.
+Les systèmes d'exploitation pour PC ont pris `le bureau` des années 1970 et l'ont rendu numérique. Le papier, les tiroirs et les enveloppes sont devenus des `fichiers` et des `dossiers`. C'est une grande abstraction, mais c'est ancien. Nous vivons dans un monde connecté et multijoueur ; nous avons besoin d'un système d'exploitation qui reconnaît ce monde.
 
-The ‘desk’ of today is cluttered with apps and services, data structures, and interfaces. Unifying this disjointed user experience is the most important problem that a platform like Urbit can solve. Landscape is built to bring everything together into a unified interface again. Without Urbit ID + Urbit OS, this would be impossible.
+Le `bureau` d'aujourd'hui est encombré d'applications et de services, de structures de données et d'interfaces. Unifier cette expérience utilisateur décousue est le problème le plus important qu'une plate-forme comme Urbit puisse résoudre. Landscape est conçu pour tout rassembler dans une interface unifiée. Sans Urbit ID + Urbit OS, cela serait impossible.
 
-Landscape is a minimal, multipurpose interface for bringing a group together to chat, share links, write and engage in discussion. It’s free of any ads, tracking, or surveillance (as is the norm for anything built on Urbit). It’s a stripped-down social utility designed for high-trust, direct communication and collaboration. It’s the perfect place for small communities to feel at home.
+Landscape est une interface minimaliste et polyvalente permettant de réunir un groupe pour discuter, partager des liens, écrire et engager des discussions. Il est exempt de toute publicité, suivi, ou surveillance (comme c'est la norme pour tout ce qui est construit sur Urbit). Il s'agit d'un utilitaire social simplifié conçu pour une communication et une collaboration directes à haut niveau de confiance. C'est l'endroit idéal pour que les petites communautés se sentent chez elles.
 
-Design {% .font-bold .subpixel-antialiased .pt-8 %}
+Conception {% .font-bold .subpixel-antialiased .pt-8 %}
 
-Landscape has two basic building blocks: groups and modules. A group is exactly what it sounds like: one or more people. A module is sort of like an app without the data lock-in. A module is just a tool for getting something done, like ‘tasks’, ‘links’ or ‘votes’ that’s shared by a group.
+Landscape repose sur deux blocs base : les groupes et les modules. Un groupe est exactement ce à quoi il fait penser : une ou plusieurs personnes. Un module est un peu comme une application sans le verrouillage des données. Un module est juste un outil pour faire quelque chose, comme des “tâches”, des “liens” ou des “votes” partagés par un groupe.
 
-To give a few simple examples, a group of family members may just chat and share photos. A group of traders might share annotated research, watch the markets, and manage payments on a blockchain.
+Pour donner quelques exemples simples, un groupe de membres d’une famille peut simplement discuter et partager des photos. Un groupe de commerçants peut partager des recherches annotées, surveiller les marchés et gérer les paiements sur une blockchain.
 
-The idea is this: any community should be able to customize their digital environment freely. For most users, this is just about choosing the right modules. For anyone with a bit of free time, adding your own modules should only be as difficult as building a simple webapp.
+L'idée est la suivante : toute communauté doit pouvoir personnaliser librement son environnement numérique. Pour la plupart des utilisateurs, il s'agit simplement de choisir les bons modules. Pour toute personne disposant d'un peu de temps libre, l'ajout de vos propres modules devrait être plus simple que la création d'une simple application Web.
 
-When we look forward to what we can do with Landscape in the future, it’s hard to see ourselves going back to the tools we use today. The centralized services we have now are like broadcast media: they’re for distributing content from a producer to a bunch of followers.
+Lorsque nous projetons ce que nous pourrons faire avec Landscape à l'avenir, il est difficile de nous voir revenir aux outils que nous utilisons aujourd'hui. Les services centralisés que nous avons maintenant sont comme les médias de diffusion : ils servent à distribuer le contenu d'un producteur à un groupe d'abonnés.
 
-Landscape is for everything else. Landscape is for actual two-way communication.
+Landscape est pour tout le reste. Landscape est pour une véritable communication bidirectionnelle.

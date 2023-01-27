@@ -1,68 +1,68 @@
 +++
-title = "History"
-description = "Where we've been and were we are now"
+title = "Histoire"
+description = "Où nous avons été et où nous en sommes maintenant"
 weight = 6
 [extra]
 image = "https://media.urbit.org/site/understanding-urbit/project-history/project-status-landscape-earth%402x.png"
 +++
 
-So who builds this thing? Where does it come from? What’s the history?
+Alors, qui a construit cette chose ? D'où est-ce que ça vient ? Quelle est l'histoire ?
 
-Today, Urbit is built and maintained by three organizations, a community of contributors and core developers, infrastructure (star) operators, and governance (galaxy) node owners.
+Aujourd'hui, Urbit est construit et maintenu par trois organisations, une communauté de contributeurs et de développeurs principaux, d'opérateurs d'infrastructure (étoiles) et de propriétaires de nœuds de gouvernance (galaxie).
 
-Let’s talk first about these individual groups within the Urbit community, then about the history of the project and how it came to be.
+Parlons d'abord de ces groupes au sein de la communauté Urbit, puis de l'histoire du projet et de son origine.
 
-Organizations {% .font-bold .subpixel-antialiased .pt-8 %}
+Organisations {% .font-bold .subpixel-antialiased .pt-8 %}
 
-There are currently three principal organizations involved in Urbit’s development and maintenance: Tlon, Urbit.live and the Urbit Foundation.
+Il existe actuellement trois principales organisations impliquées dans le développement et la maintenance d'Urbit : Tlon, Urbit.live et la Fondation Urbit.
 
-Tlon has been around since 2013 or so, and is primarily focussed on the development of Urbit OS and its user experience. Urbit.live was started in 2018 to make the on ramp into Urbit as easy as possible. Both companies contribute regularly to the code base.
+Tlon existe depuis 2013 environ et se concentre principalement sur le développement d'Urbit OS et son expérience utilisateur. Urbit.live a été lancé en 2018 pour permettre aux utilisateurs d’accéder à Urbit de manière aussi simple que possible. Les deux sociétés contribuent régulièrement à la base du code.
 
-Tlon was originally granted about half of the Urbit ID address space, and has used that to fund its operations so far. Over time, Tlon plans to offer hosting and services to make using Urbit as easy as possible.
+Tlon s’est vu accordé, initialement, environ la moitié de l'espace d'adresse Urbit ID et l'a utilisé pour financer ses opérations jusqu'à présent. Au fil du temps, Tlon prévoit de proposer un hébergement et des services pour rendre l'utilisation d'Urbit aussi simple que possible.
 
-Urbit.live started selling Urbit IDs very early once that became possible, and also plans to offer services within the Urbit ecosystem.
+Urbit.live a commencé à vendre des Urbit ID très tôt une fois que cela est devenu possible, et prévoit également d'offrir des services au sein de l'écosystème Urbit.
 
-The Urbit Foundation was formally established in 2021. The Foundation runs the grants program, maintains urbit.org, the network explorer, and organizes Urbit events like Assembly.
+La Fondation Urbit a été officiellement créée en 2021. La Fondation gère le programme de subventions, et gère [urbit.org](http://urbit.org/), l'explorateur de réseau, et organise des événements Urbit comme Assembly.
 
-The community of contributors and core developers has been steadily contributing to the code base since before Tlon existed, and they’re still going strong. They can primarily be found on Urbit itself, in the Urbit Community ([~bitbet-bolbel/urbit-community](/groups/~bitbet-bolbel/urbit-community)), the urbit-dev mailing list and on GitHub.
+La communauté de contributeurs et de développeurs de base contribuent régulièrement à la base du code, et ce avant même que Tlon n'existe. Ils sont toujours aussi présents. Ils peuvent être trouvés principalement sur Urbit, dans la communauté Urbit ([~bitbet-bolbel/urbit-community](https://urbit.org/groups/~bitbet-bolbel/urbit-community)), la liste de diffusion urbit-dev, et sur GitHub.
 
-Timeline {% .font-bold .subpixel-antialiased .pt-8 %}
+Chronologie {% .font-bold .subpixel-antialiased .pt-8 %}
 
-At the beginning, Urbit was just a few people with the right combination of imagination and discipline to try to rebuild computing.
+Au début, Urbit ne rassemblait que quelques personnes, mais elles avaient la bonne combinaison d’inventivité et de discipline pour tenter de reconstruire l’informatique.
 
-**2002**  
-Urbit starts as an open-ended personal project. An “independent study PhD” to reinvent computing for a network-centric world.
+**2002**
+Urbit commence comme un projet personnel sans but définit. Un “doctorat d'étude indépendant” pour réinventer l'informatique pour un monde centré sur le réseau.
 
-**2008**  
-Nock, the foundation of Urbit, works. Coming in at 32 lines of code, that’s 1 line of code every two months.
+**2008**
+Nock, qui deviendra la base d'Urbit, fonctionne. Avec 32 lignes de code, c'est 1 ligne de code tous les deux mois.
 
-**2012**  
-Hoon, Urbit’s programming language, compiles itself to Nock. Writing Hoon is much easier than writing Nock.
+**2012**
+Hoon, le langage de programmation d'Urbit, se compile en Nock. Écrire Hoon est beaucoup plus facile que d'écrire Nock.
 
-**2013**  
-Arvo, Urbit’s OS kernel, boots and the first live Urbit network is started with a command-line chat.
+**2013**
+Arvo, le noyau du système d'exploitation d'Urbit, démarre et le premier réseau Urbit en direct est démarré avec un chat en ligne de commande.
 
-**2014**  
-Tlon is founded to help support Urbit development (and is < 8 people for the next four years).
+**2014**
+Tlon est créé pour aider à soutenir le développement d'Urbit (et compte < 8 personnes pour les quatre prochaines années).
 
-**2015**  
-Urbit has its first web interface and serves its own website.
+**2015**
+Urbit a sa première interface Web et supporte son propre site Web.
 
-**2016**  
-The first sale of Urbit address space sells out in four hours.
+**2016**
+La première vente d'espace d'adresse Urbit se conclut en seulement quatre heures.
 
-**2017**  
-Our test network runs for ten months without a reboot.
+**2017**
+Notre réseau de test fonctionne pendant dix mois sans redémarrage.
 
-Our private sale, shared only with our mailing list, sells out in six hours — limit two per person.
+Notre vente privée, partagée uniquement avec notre liste de diffusion, se vend en six heures, tout en se limitant à deux par personne.
 
-**2018**  
-Tlon sells about 8% of its stake in the network to accelerate Urbit development. urbit.live gets going and starts selling Urbit IDs to the public.
+**2018**
+Tlon vend environ 8% de sa participation dans le réseau pour accélérer le développement d'Urbit. urbit.live, démarre et commence à vendre des identifiants Urbit au public.
 
-**2019**  
-Tlon spends the year stabilizing Arvo and building Landscape.
+**2019**
+Tlon passe l'année à stabiliser Arvo et à construire Landscape.
 
-**2021**  
-Tlon hosts the first Urbit Assembly and the Urbit Foundation is formally organized.
+**2021**
+Tlon accueille la première Assemblée Urbit et la Fondation Urbit est officiellement organisée.
 
-Building Urbit is about building a future where technology doesn’t control us. Instead, we look forward to a future where technology is simpler, more reliable and less invasive.
+Construire Urbit consiste à construire un avenir où la technologie ne nous contrôle pas. Au lieu de cela, nous envisageons un avenir où la technologie sera plus simple, plus fiable et moins invasive.

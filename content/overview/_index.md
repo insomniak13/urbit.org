@@ -4,21 +4,22 @@ description = "We think the internet can’t be saved."
 sort_by = "weight"
 +++
 
-We think the internet can’t be saved. The way things are going, MEGACORP will always control our apps and services because we can no longer run them ourselves.
+Nous pensons qu'Internet ne peut pas être sauvé. Au rythme où vont les choses, les conglomérats contrôleront toujours nos applications et services, car nous ne pouvons, ni ne savons plus les exécuter nous-mêmes.
 
-The only way out of this mess is with a completely new platform that’s owned and controlled by its users.
+Le seul moyen de sortir de cette situation désastreuse est d'utiliser une toute nouvelle plate-forme détenue et contrôlée par ses utilisateurs.
 
-Urbit is a new OS and peer-to-peer network that’s simple by design, built to last forever, and 100% owned by its users. Under the hood, Urbit is a clean-slate software stack compact enough that an individual developer can understand and control it completely.
+Urbit est un nouveau système d'exploitation et un réseau peer-to-peer de conception simple, conçu pour durer éternellement, et détenu à 100% par ses utilisateurs. Sous le capot, Urbit est une stack de logiciels reprenant tout à zéro et qui est suffisamment compacte pour qu'un développeur individuel puisse la comprendre et la contrôler complètement.
 
-We built this new stack to give people a single integrated tool for communicating and building communities – a tool they can trust, control, and extend to their liking. We want to do away with the terrible user experience of the current ‘frankenstack’ of apps and services that we all use today.
+Nous avons construit cette nouvelle stack de logiciels pour donner aux gens un outil intégré unique pour communiquer et créer des communautés, un outil auquel ils peuvent faire confiance, contrôler et étendre à leur guise. Nous voulons éliminer la terrible expérience utilisateur de la "frankenstack" actuelle d'applications et de services que nous utilisons tous aujourd'hui.
 
-Urbit is designed to become an effective, customizable productivity tool for collaborators, and a calm noninvasive communication tool for friends and families.
+Urbit est conçu pour devenir un outil de productivité efficace et personnalisable pour les collaborateurs, et un outil de communication doux et non invasif pour les amis et les familles.
 
-This probably sounds crazy, so let’s get concrete and talk about (1) Urbit as a piece of technology and (2) Urbit as a user experience.
+Cela semble probablement fou, alors soyons concrets et parlons (1) d'Urbit en tant que technologie et (2) d'Urbit en tant qu'expérience utilisateur.
 
-Technology {% .font-bold .subpixel-antialiased .pt-8 %}
+Technologie {% .font-bold .subpixel-antialiased .pt-8 %}
 
-Technically, Urbit is two components: Urbit OS and Urbit ID.  Both are completely open source and MIT licensed.
+Techniquement, Urbit est composé de deux composants principaux : Urbit OS et Urbit ID. 
+Les deux sont entièrement open source et sous licence MIT.
 
 {% div className="flex justify-between space-x-4" %}
 {% div %}
@@ -31,34 +32,34 @@ Technically, Urbit is two components: Urbit OS and Urbit ID.  Both are completel
 
 {% /div %}
 
-**Urbit OS** is a new, carefully architected software stack: a VM, programming language and kernel designed to run software for an individual.
+**Urbit OS** Urbit OS est une nouvelle stack de logiciels soigneusement conçue : une machine virtuelle, un langage de programmation et un noyau conçus pour exécuter des logiciels pour un individu.
 
-Urbit OS is a program that runs on almost any cloud server, most laptops and many phones: anything with Unix and an internet connection. Urbit OS is completely sealed from the system it runs on, sort of like WASM or the JVM. We sometimes call it an ‘overlay OS’.
+Urbit OS est un programme qui s'exécute sur presque tous les serveurs de cloud ainsi que sur la plupart des ordinateurs portables et de nombreux téléphones : n'importe quel outils fonctionnant avec Unix et une connexion Internet. Urbit OS est complètement isolé du système sur lequel il s'exécute, similaire à WASM ou  JVM. Nous l'appelons parfois un “OS superposé”.
 
-In an Urbit world, each person has their own Urbit OS node, or ‘urbit’. Your urbit is secure and private to you and entirely under your control. When you want to connect with others, you connect to their urbit directly — rather than going through a centralized service.
+Dans un monde Urbit, chaque personne a son propre nœud Urbit OS, ou « urbit ». Votre urbit est sécurisé et privé pour vous et entièrement sous votre contrôle. Lorsque vous souhaitez vous connecter avec d'autres, vous vous connectez directement à leur urbit, plutôt que de passer par un service centralisé.
 
-If you’re curious to dive even deeper into Urbit OS, feel free to skip ahead.
+Si vous êtes curieux de plonger encore plus profondément dans Urbit OS, n'hésitez pas à passer ces parties et sauter à la prochaine partie.
 
-**Urbit ID** is an identity and authentication system specifically designed to work with Urbit OS. When you boot or log in to Urbit OS, you use your Urbit ID.
+**Urbit ID** Urbit ID est un système d'identité et d'authentification spécialement conçu pour fonctionner avec Urbit OS. Lorsque vous démarrez ou vous vous connectez à Urbit OS, vous utilisez votre Urbit ID.
 
-Your Urbit ID is a short, memorable name (like ~ravmel-ropdyl) that’s a username, network address and crypto wallet all in one. It’s registered on a blockchain, you own it with a key and no one can take it away from you. Urbit IDs are cryptographic property.
+Votre Urbit ID est un nom court et mémorable (comme ~ravmel-ropdyl) qui est un nom d'utilisateur, une adresse réseau et un portefeuille crypto tout-en-un. Il est enregistré sur une blockchain, vous le possédez avec une clé et personne ne peut vous le retirer. Les Urbit ID sont des propriétés cryptographiques.
 
-Urbit IDs aren’t money, but they are scarce, so each one costs something. This means that when you meet a stranger on the Urbit network, they have some skin in the game and are less likely to be a bot or a spammer.
+Les Urbit ID ne sont pas de l'argent, mais ils sont rares, donc chacun a un coût. Cela signifie que lorsque vous rencontrez un étranger sur le réseau Urbit, il a investi dedans et, de fait, est moins susceptible d'être un bot ou un spammeur.
 
-Experience {% .font-bold .subpixel-antialiased .pt-8 %}
+Expérience {% .font-bold .subpixel-antialiased .pt-8 %}
 
-We want Urbit to be a single, simple interface for your whole digital life.
+Nous voulons qu'Urbit soit une interface unique et simple répondant à tous les besoins de votre vie numérique.
 
-Over the years, Urbit has been built in public as an open source project. Anyone can join the network and check out what we’re up to. It’s a bit like signing on to IRC in the early 90s.
+Au fil des ans, Urbit a été construit avec l’aide de la communauté en tant que projet open source. Tout le monde peut rejoindre le réseau et découvrir ce que nous faisons. C'est un peu comme s'inscrire sur IRC au début des années 90.
 
-In early 2020, Tlon released Urbit OS 1, now called Landscape: a minimal interface for group communication, and our first complete interface. Landscape is a tool to chat, share notes and links, and stay connected.
+Début 2020, Tlon a sorti Urbit OS 1, désormais nommé Landscape : une interface de base pour la communication de groupe. Ce fut notre première interface complète. Landscape est un outil pour discuter, partager des notes et des liens, et rester connecté.
 
-Over time, Urbit will grow into a system that can bring together all our different modes of communicating: chat, payments, documents, images, biometric data. We want individuals and their communities to be able to both control their software in fact, through the source code, and in action, through a simple interface.
+Au fil du temps, Urbit deviendra un système capable de rassembler tous nos différents modes de communication : chat, paiements, documents, images, données biométriques. Nous voulons que les individus et leurs communautés puissent à la fois contrôler effectivement leur logiciel, via le code source tout en utilisant une interface simple.
 
-We want to leave behind a world of apps and services for one where we can bring everything together in one place. And, in doing so, ordinary users can create customized digital environments for their friends and communities.
+Nous voulons laisser derrière nous un monde d'applications et de services pour un monde où nous pouvons tout rassembler en un seul endroit. Ce faisant, les utilisateurs ordinaires pourront créer des environnements numériques personnalisés pour leurs amis et leurs communautés.
 
-To see how we’re going to get there, let’s walk through these two pieces of new technology individually, Urbit OS and Urbit ID. We’ll then talk about our vision for the future and how we’ll get there.
+Pour voir comment nous allons y arriver, passons en revue ces deux nouvelles technologies individuellement, Urbit OS et Urbit ID. Nous parlerons ensuite de notre vision de l'avenir et de la manière dont nous y parviendrons.
 
-For technical people, it’s important to note that Urbit as a stack is in no way required to be used together. Don’t like our client? Feel free to build your own. Just like the Urbit ID system? No problem — use it!
+Pour les techniciens, il est important de noter qu'Urbit en tant que stack de logiciel, ne doit en aucun cas être forcément utilisé ensemble. Vous n'aimez pas notre client ? N'hésitez pas à créer le vôtre. Vous n’aimez que le système Urbit ID ? Pas de problème - utilisez-le !
 
-Ultimately, we think that new technology is most likely to get adopted if it can provide a much, much better user experience. So that’s what we’re focusing on creating.
+En fin de compte, nous pensons que les nouvelles technologies sont plus susceptibles d'être adoptées si elles peuvent offrir une bien meilleure expérience utilisateur. C'est donc sur cela que nous nous concentrons.

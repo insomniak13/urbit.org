@@ -14,7 +14,7 @@ Consultez notre [guide de démarrage](https://urbit.org/getting-started) pour tr
 
 Urbit en est encore à ses débuts, vous devrez donc rejoindre des groupes et explorer le réseau pour découvrir de nouvelles applications au fur et à mesure qu’elles apparaissent.
 
-Cependant, nous pouvons lancer une application simple à partir du développeur Urbit [~paldev](https://urbit.org/ids/~paldev).
+Cependant, nous pouvons lancer une application simple à partir du développeur Urbit `[~paldev]`(https://urbit.org/ids/~paldev).
 
 ### 3. Rechercher un Développeur
 

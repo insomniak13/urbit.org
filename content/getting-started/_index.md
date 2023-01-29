@@ -11,7 +11,7 @@ Il en est de même pour la création d’un système d'identité qui remplacerai
 
 Rejoindre Urbit n'est pas toujours facile non plus. Le processus d’onboarding n'a pas été optimisé par des chefs de produit en quête de profit maximal. Il n'y a pas de case à cocher pour vos intérêts, vous devez les découvrir vous-même.
 
-Mais nous aimons à penser que ce travail acharné est exactement ce qui rend Urbit si spécial. Considérez-vous averti.
+Mais nous aimons à penser que ce travail acharné est exactement ce qui rend Urbit si spécial. **Considérez-vous averti**.
 
 ### Pourquoi Urbit ?
 

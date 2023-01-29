@@ -30,7 +30,7 @@ Voici quelques autres groupes utiles à rejoindre :
 
 - [~rondev/group-discovery](https://urbit.org/groups/~rondev/group-discovery) : Un groupe pour trouver d'autres groupes.
 - [~middev/the-forge](https://urbit.org/groups/~middev/the-forge) : Un groupe pour partager, discuter et découvrir de nouvelles applications Urbit.
-- [~hocwyn-tipwex/uqbar-event-horizon](https://urbit.org/groups/~hocwyn-tipwex/uqbar-event-horizon) : Une communauté autour d'[Uqbar](https://uqbar.network/), une entreprise qui crée des applications et des expériences au-dessus d'Urbit notamment EScape, qui est une alternative à l'application Groups par défaut pour rejoindre des communautés et communiquer avec d'autres Urbiters.
+- [~hocwyn-tipwex/uqbar-event-horizon-forever](https://urbit.org/groups/~hocwyn-tipwex/uqbar-event-horizon) : Une communauté autour d'[Uqbar](https://uqbar.network/), une entreprise qui crée des applications et des expériences au-dessus d'Urbit notamment EScape, qui est une alternative à l'application Groups par défaut pour rejoindre des communautés et communiquer avec d'autres Urbiters.
 
 ### 3. Obtenir plus d’applications Urbit
 
@@ -66,10 +66,10 @@ Tu l'as fait ! Vous avez fait le travail et maintenant, vous avez votre ordinate
 
 Ce que vous en faites dépend de vous. Où vous allez à partir d'ici dépend de vous. Aucune expérience sur Urbit ne sera la même, nous vous encourageons donc à suivre votre intuition et à explorer.
 
-En apprendre plus sur l'utilisation d'Urbit : Consultez le [site des Opérateurs](https://operators.urbit.org/) pour en apprendre plus sur l'exécution de votre propre Urbit et le fonctionnement du réseau.
+**En apprendre plus sur l'utilisation d'Urbit** : Consultez le [site des Opérateurs](https://operators.urbit.org/) pour en apprendre plus sur l'exécution de votre propre Urbit et le fonctionnement du réseau.
 
-Recevez des mises à jour sur Urbit : [Abonnez-vous](https://urbit.us11.list-manage.com/subscribe/post?u=972a03db9e0c6c25bb58de8c8&id=be143888d2) à la newsletter Urbit pour recevoir les actualités, les articles et les événements de la Fondation Urbit.
+**Recevez des mises à jour sur Urbit** : [Abonnez-vous](https://urbit.us11.list-manage.com/subscribe/post?u=972a03db9e0c6c25bb58de8c8&id=be143888d2) à la newsletter Urbit pour recevoir les actualités, les articles et les événements de la Fondation Urbit.
 
-Joignez-vous à un événement ou à un meetup : De nombreuses organisations et personnes à l'origine d'Urbit organisent régulièrement des événements virtuels ou en personne. Consultez notre [fil d'événements](https://urbit.org/events) ou le groupe [Meetup local](https://urbit.org/ecosystem?type=communities).
+**Joignez-vous à un événement ou à un meetup** : De nombreuses organisations et personnes à l'origine d'Urbit organisent régulièrement des événements virtuels ou en personne. Consultez notre [fil d'événements](https://urbit.org/events) ou le groupe [Meetup local](https://urbit.org/ecosystem?type=communities).
 
-Apprendre à construire sur Urbit : Si vous êtes le genre de personne qui souhaite construire des applications directement pour des communautés averties avec des primitives d'identité et de réseau, ou même sauter au cœur d’Urbit, nous avons les informations les plus complètes pour vous aider à démarrer sur le [site Urbit Developers](https://developers.urbit.org/).
+**Apprendre à construire sur Urbit** : Si vous êtes le genre de personne qui souhaite construire des applications directement pour des communautés averties avec des primitives d'identité et de réseau, ou même sauter au cœur d’Urbit, nous avons les informations les plus complètes pour vous aider à démarrer sur le [site Urbit Developers](https://developers.urbit.org/).

@@ -73,8 +73,9 @@ En savoir plus avec les planètes sur Layer 2 à la page du manuel de l'utilisat
 
 L’invitation pour récupérer votre planète se présente sous l’une de ces deux formes :
 
-1. La première est une invitation par e-mail avec un Urbit ID et un Master Ticket.
-2. La seconde, récemment mis à disposition via notre [solution L2](https://operators.urbit.org/manual/id/layer-2-for-planets), est un code d'activation ou un lien à activer sur [Bridge](https://bridge.urbit.org/), qui peut être considéré comme un outil de gestion de compte Urbit.
+La première est une invitation par e-mail avec un Urbit ID et un Master Ticket.
+
+La seconde, récemment mis à disposition via notre [solution L2](https://operators.urbit.org/manual/id/layer-2-for-planets), est un code d'activation ou un lien à activer sur [Bridge](https://bridge.urbit.org/), qui peut être considéré comme un outil de gestion de compte Urbit.
 
 ![](https://media.urbit.org/site/getting-started/Server-setup-1.jpg)
 

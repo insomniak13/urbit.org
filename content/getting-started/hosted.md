@@ -16,7 +16,7 @@ Deux points importants à savoir sur les hébergeurs :
 Certains hébergeurs que nous aimons incluent :
 
 - [Tlon](https://tlon.network/)
-- [Third Earth](https://third.earth/)
+- [ThirdEarth](https://third.earth/)
 - [Planet One](https://planet.one/)
 
 

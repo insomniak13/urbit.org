@@ -8,10 +8,6 @@ Si vous êtes un utilisateur Power User, vous pouvez exécuter Urbit runtime (Ve
 
 Notez qu'il existe un [guide d'hébergement sur le cloud](https://operators.urbit.org/manual/running/hosting) beaucoup plus complet qui explique comment configurer Urbit sur un VPS [Digital Ocean](https://www.digitalocean.com/).
 
-Note there is a much more comprehensive [cloud hosting
-guide] which walks through
-setting up Urbit on a [Digital Ocean] VPS.
-
 ### 1. **Configuration système requise**
 
 - **Processeur** : 1
